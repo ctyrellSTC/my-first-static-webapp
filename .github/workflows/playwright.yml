@@ -17,6 +17,8 @@ jobs:
       run: npm ci
     - name: Install Playwright Browsers
       run: npx playwright install --with-deps
+    - name: install sirv
+      run: npm i sirv
     - name: Start Local WebServer
       run: npm run start
     - name: Run Playwright tests
