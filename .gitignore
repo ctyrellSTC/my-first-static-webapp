@@ -1,7 +1,10 @@
+
+
+# NPM packages folder.
 node_modules/
-/test-results/
-/playwright-report/
-/playwright/.cache/
-/test-results/
-/playwright-report/
-/playwright/.cache/
+
+
+# Nova
+.nova/
+
+**/.DS_Store
